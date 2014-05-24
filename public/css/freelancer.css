@@ -7,14 +7,10 @@ p {
 }
 
 .keystoneBackground { 
-max-height:100%;
-width:100%;
-background-image:url('/img/keystone/Sprays.jpg');
-background-repeat:no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-
-
+    height:100%;
+    max-width:100%;
+    background-image:url('/img/keystone/Sprays.jpg');
+    background-repeat:no-repeat;
 }
 
 p.small {
