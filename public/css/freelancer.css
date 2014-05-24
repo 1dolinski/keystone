@@ -6,9 +6,10 @@ p {
     font-size: 20px;
 }
 
-.sprinkler { 
+.keystoneBackground { 
+max-height:100%;
+width:100%;
 background-image:url('/img/keystone/Sprays.jpg');
-background-size:100%;
 background-repeat:no-repeat;
     margin-left: auto;
     margin-right: auto;
