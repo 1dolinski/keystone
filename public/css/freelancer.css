@@ -6,6 +6,16 @@ p {
     font-size: 20px;
 }
 
+.sprinkler { 
+background-image:url('/img/keystone/sprays.jpg');
+background-size:100%;
+background-repeat:no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
 p.small {
     font-size: 16px;
 }
