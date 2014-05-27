@@ -7,7 +7,6 @@ p {
 }
 
 .keystoneBackground { 
-    height:100%;
     max-width:100%;
     background-image:url('/img/keystone/Sprays.jpg');
     background-repeat:no-repeat;
@@ -105,8 +104,12 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 4.0em;
     font-weight: 300;
+    color: #222;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+font-color: #222;
 }
 
 @media(min-width:768px) {
@@ -211,15 +214,16 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #999;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.9;
 }
+
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
