@@ -114,7 +114,7 @@ header .intro-text .skills {
     font-size: 4.0em;
 }
 
-header .intro-text .skills #cooli {
+#cooli {
     /*font-size: 4.0em;*/
     font-weight: 300;
     color: black;
@@ -138,7 +138,7 @@ header .intro-text .skills #cooli {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
